@@ -5,6 +5,7 @@ const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 
+// using cors 
 app.use(cors({
   origin: ['http://localhost:3000',],
   credentials: true
@@ -12,6 +13,8 @@ app.use(cors({
 
 app.use(express.json());
 app.use(cookieParser());
+
+// for testing the app on localhost
 app.use("/test", (req, res) => {
   res.send("Hello world!");
 });
@@ -37,6 +40,7 @@ const conversation = require("./controller/conversation");
 const message = require("./controller/message");
 const withdraw = require("./controller/withdraw");
 
+// having the api routes and redirecting them towards their respective files
 app.use("/api/v2/user", user);
 app.use("/api/v2/conversation", conversation);
 app.use("/api/v2/message", message);
