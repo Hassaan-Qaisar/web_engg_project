@@ -8,7 +8,22 @@ const App = () => {
   
   return (
     <BrowserRouter>
-      
+      <Routes>
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/sign-up" element={<SignupPage />} />
+      </Routes>
+      <ToastContainer
+        position="bottom-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </BrowserRouter>
   );
 };
