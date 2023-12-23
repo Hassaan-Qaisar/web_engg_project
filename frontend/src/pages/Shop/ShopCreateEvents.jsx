@@ -3,6 +3,7 @@ import DashboardHeader from '../../components/Shop/Layout/DashboardHeader'
 import CreateEvent from "../../components/Shop/CreateEvent";
 import DashboardSideBar from '../../components/Shop/Layout/DashboardSideBar';
 
+// shop create events
 const ShopCreateEvents = () => {
   return (
     <div>
