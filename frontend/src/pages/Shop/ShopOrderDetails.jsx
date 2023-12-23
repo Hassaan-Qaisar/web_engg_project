@@ -3,6 +3,7 @@ import DashboardHeader from '../../components/Shop/Layout/DashboardHeader'
 import Footer from '../../components/Layout/Footer'
 import OrderDetails from "../../components/Shop/OrderDetails";
 
+// shop order details
 const ShopOrderDetails = () => {
   return (
     <div>

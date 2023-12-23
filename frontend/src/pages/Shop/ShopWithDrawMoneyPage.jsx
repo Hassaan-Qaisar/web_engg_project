@@ -3,6 +3,7 @@ import DashboardHeader from '../../components/Shop/Layout/DashboardHeader'
 import WithdrawMoney from "../../components/Shop/WithdrawMoney";
 import DashboardSideBar from '../../components/Shop/Layout/DashboardSideBar';
 
+// shop withdraw money
 const ShopWithDrawMoneyPage = () => {
   return (
     <div>

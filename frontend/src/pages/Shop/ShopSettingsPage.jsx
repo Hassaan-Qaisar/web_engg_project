@@ -4,6 +4,7 @@ import ShopSettings from "../../components/Shop/ShopSettings";
 import DashboardHeader from "../../components/Shop/Layout/DashboardHeader";
 import DashboardSideBar from "../../components/Shop/Layout/DashboardSideBar";
 
+// shop setting
 const ShopSettingsPage = () => {
   return (
     <div>

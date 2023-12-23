@@ -3,6 +3,7 @@ import styles from '../../styles/styles'
 import ShopInfo from "../../components/Shop/ShopInfo";
 import ShopProfileData from "../../components/Shop/ShopProfileData";
 
+// shop preview 
 const ShopPreviewPage = () => {
   return (
     <div className={`${styles.section} bg-[#f5f5f5]`}>

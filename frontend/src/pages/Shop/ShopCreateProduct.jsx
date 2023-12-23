@@ -3,6 +3,7 @@ import DashboardHeader from '../../components/Shop/Layout/DashboardHeader'
 import DashboardSideBar from '../../components/Shop/Layout/DashboardSideBar'
 import CreateProduct from "../../components/Shop/CreateProduct";
 
+// shop create product
 const ShopCreateProduct = () => {
   return (
     <div>
