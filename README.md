@@ -1,6 +1,6 @@
 # Ecommerce Website - MERN Stack
 
-This project is an ecommerce website developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It serves as the end semester project for the Web Engineering course at [Your University Name].
+This project is an ecommerce website developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It serves as the end semester project for the Web Engineering course at NUST.
 
 ## Overview
 
