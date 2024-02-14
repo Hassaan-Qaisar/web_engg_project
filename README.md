@@ -96,3 +96,9 @@ Contributions to this project are welcome! If you'd like to contribute, please f
 5. Push to the branch (`git push origin feature/new-feature`).
 6. Create a new Pull Request.
 
+## Contributors
+
+- Hassaan Qaisar
+- Jamal Ahmed
+- Zubair Khalid
+
